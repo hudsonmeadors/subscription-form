@@ -1,3 +1,5 @@
+<!-- GitHub - index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +10,7 @@
 <body>
   <div class="form-container">
     <h2>Subscribe to our newsletter plus tips, advice, and events:</h2>
-    <form id="subscribeForm" action="https://script.google.com/macros/s/AKfycbxScXTctAve_97VvUDVvA8X2Fd2NwukQGqKG-o8SIesPazW7m1ShtiakbrQAsrGEN_r/exec" method="POST">
+    <form id="subscribeForm" action="https://script.google.com/macros/s/AKfycbxTwyQ_KPWVezE1JiEJN5fePnt8M2zPzEL1mGKwm1Ri5qHtU2CRD33AnsbY4eZwqBTW/exec" method="POST">
       <input type="email" id="email" name="email" placeholder="Enter email here..." required>
       <input type="submit" value="Subscribe">
       <p id="response"></p>
@@ -20,7 +22,7 @@
       event.preventDefault();
       var email = document.getElementById('email').value;
       var responseElement = document.getElementById('response');
-      var url = 'https://script.google.com/macros/s/AKfycbxScXTctAve_97VvUDVvA8X2Fd2NwukQGqKG-o8SIesPazW7m1ShtiakbrQAsrGEN_r/exec'; // Replace with your Google Apps Script URL
+      var url = 'https://script.google.com/macros/s/AKfycbxTwyQ_KPWVezE1JiEJN5fePnt8M2zPzEL1mGKwm1Ri5qHtU2CRD33AnsbY4eZwqBTW/exec'; // Replace with your Google Apps Script URL
 
       fetch(url, {
         method: 'POST',
@@ -44,3 +46,4 @@
   </script>
 </body>
 </html>
+
